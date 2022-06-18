@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <%- include('../partials/head'); %>
+    </head>
+
+<body>
+
+    <header>
+        <%- include('../partials/header'); %>
+    </header>
+
+    <div class="nav-bg">
+        <%- include('../partials/nav'); %>
+    </div>
+
+    <main class="container">
+
+        <section>
+            <h2>Contactame</h2>
+    
+            <form class="form-contact" action="">
+    
+                <fieldset>
+    
+                    <legend>Contactame llenando todos los campos</legend>
+    
+                    <div class="containes-fields">
+                        <div class="field">
+                            <label for="">Nombre</label>
+                            <input class="inputs" type="text" name="" id="" placeholder="Ej: Yanneth">
+                        </div>
+    
+                        <div class="field">
+                            <label for="tel">Telefono</label>
+                            <input class="inputs" type="tel" placeholder="Ej: 321 321 2121">
+                        </div>
+                                        
+                        <div class="field">
+                            <label for="email">Email</label>
+                            <input class="inputs" type="email" placeholder="Ej: yanneth@prueba.com">
+                        </div>
+    
+                        <div class="field">
+                            <label for="mjs">Mensaje</label>
+                            <textarea class="inputs" name="" id="" cols="30" rows="10"></textarea>
+                        </div>
+                    </div> <!--containes-fields-->
+    
+                    <div class="align-righ flex">
+                        <input class= "button submit w-sm-100" type="submit" value="Enviar">
+                    </div>    
+    
+                </fieldset>
+    
+            </form>
+       </section>
+
+        <h2>Mis datos</h2>
+
+        <p>
+            Email: yanneth.carrasco@hotmail.com
+                        <br>
+                        <hr>
+                        <br>
+            Cel: 3188487014
+            <br>
+            <hr>
+            <br>
+            
+            <a href="https://www.linkedin.com/in/yanneth-carrasco">LinkedIn</a>
+             
+        </p>
+    
+    </main>
+    
+</body>
+
+<footer class="footer">
+    <%- include('../partials/footer'); %>
+</footer>
+
+</html>
